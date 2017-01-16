@@ -50,8 +50,9 @@ class MyStr(str) : #<-----Replace xyz-make a new class, MyStr, that inherits fro
         #YOUR CODE BELOW:
         #################
         
-        output=super(MyStr,MyStr(self.lower())).replace(take_out, use_this)
-        return output
+        ex2_lowercase=self.lower()
+        return ex2_lowercase.replace(take_out.lower(), use_this.lower())
+        
 
 
 
